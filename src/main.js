@@ -4,9 +4,7 @@ function updateCountdown() {
   const now = new Date()
   const currentYear = now.getFullYear()
   const nextYear = currentYear + 1
-  const currentMonth = now.getMonth()
-  const currentDay = now.getDate()
-  const newYear = new Date(nextYear, currentMonth, currentDay, 0, 0, 0)
+  const newYear = new Date(nextYear, 9, 6, 0, 0, 0)
   
   const timeDiff = newYear - now
   
